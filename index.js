@@ -10,6 +10,7 @@ import * as Styles from './lib/Styles'
 import * as Markup from './lib/Markup'
 
 export {
+	Clamp,
 	Align,
 	Markup,
 	Styles,
