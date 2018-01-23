@@ -9,11 +9,4 @@ import * as Align from './lib/Align'
 import * as Styles from './lib/Styles'
 import * as Markup from './lib/Markup'
 
-export {
-	Ratio,
-	Effects,
-	Clamp,
-	Align,
-	Markup,
-	Styles,
-}
+export { Ratio, Effects, Clamp, Align, Markup, Styles }
