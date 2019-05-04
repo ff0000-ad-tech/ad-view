@@ -7,7 +7,8 @@
 	"description": "",
 	"main": "index.js",
 	"scripts": {
-		"pub": "np"
+		"pub": "np",
+		"docs": "node md/docs_to_md.js"
 	},
 	"repository": {
 		"type": "git",
@@ -22,7 +23,10 @@
 		"@ff0000-ad-tech/ad-geom": "^1.1.1",
 		"@ff0000-ad-tech/ad-ui": "^1.3.1",
 		"@ff0000-ad-tech/ad-legacy": "^1.0.1",
-		"@ff0000-ad-tech/ad-utils": "^2.0.0"
+		"@ff0000-ad-tech/ad-utils": "^2.0.0",
+		"@ff0000-ad-tech/fat-jsdoc-to-md": "git+https://github.com/ff0000-ad-tech/fat-jsdoc-to-md.git",
+		"jsdoc": "git+https://github.com/ff0000-ad-tech/jsdoc.git",
+		"jsdoc-to-markdown": "^4.0.1"
 	},
 	"devDependencies": {
 		"babel-eslint": "^8.2.2",
