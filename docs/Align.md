@@ -64,7 +64,7 @@ Align.set(myDiv, {
 If <b>'against'</b> is a number, then <b>'outer'</b> will have no affect.
 <br>
 <br>
-<img src="https://github.com/ff0000-ad-tech/ad-docs/blob/master/docs/docs_images/align/align_c.jpg" />
+<img src="https://github.com/ff0000-ad-tech/ad-docs/blob/master/assets/ad-view/align_c.jpg" />
 <br><br>
 <pre class="sunlight-highlight-javascript">
 // complex alignment, align in relation to another div with an offset shift of 10 pixels, without snapping to a whole pixel

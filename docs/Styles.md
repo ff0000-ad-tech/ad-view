@@ -71,23 +71,23 @@ Creates a new CSS stylesheet node (class, tag, etc) DEFINITION out of the submit
 **Example**  
 ```js
 // selector/CSS string pair
-Styles.injectStylesheet('myFirstStyle', 
+Styles.injectStylesheet('myFirstStyle',
 	'.class-a', 'position:absolute; width:inherit;'
 )
 
 // selector/CSS string pair: add multiple class declarations to the same node
-Styles.injectStylesheet('mySecondStyle', 
+Styles.injectStylesheet('mySecondStyle',
 	'.class-b', 'position:absolute;',
 	'.class-b-top', 'width:inherit; height:inherit;'
 )
 
 // selector/CSS string pair:  have mulitple classes share the same logic
-Styles.injectStylesheet('myThirdStyle', 
+Styles.injectStylesheet('myThirdStyle',
 	'.class-c, .class-d', 'position:absolute;'
 )
 
 // selector/CSS string pair: add style to a tag name globally
-Styles.injectStylesheet('myFourthStyle', 
+Styles.injectStylesheet('myFourthStyle',
 	'h1', 'position:absolute;'
 )
 
