@@ -64,7 +64,7 @@ Align.set(myDiv, {
 If <b>'against'</b> is a number, then <b>'outer'</b> will have no affect.
 <br>
 <br>
-<img src="../docs_images/align/align_c.jpg" />
+<img src="https://github.com/ff0000-ad-tech/ad-docs/blob/master/docs/docs_images/align/align_c.jpg" />
 <br><br>
 <pre class="sunlight-highlight-javascript">
 // complex alignment, align in relation to another div with an offset shift of 10 pixels, without snapping to a whole pixel
@@ -108,13 +108,13 @@ An Array of items can be passed in to the `source` argument. All items will be i
 <br><br>
 <pre class="sunlight-highlight-javascript">
 // aligns all items to the center
-Align.set([myDiv0, myDiv1, myDiv2], Align.CENTER) 
+Align.set([myDiv0, myDiv1, myDiv2], Align.CENTER)
 
 // aligns all items to the horizontal center and bottom
 Align.set([myDiv0, myDiv1, myDiv2], {
 	x: Align.CENTER,
 	y: Align.BOTTOM
-}) 
+})
 </pre>
 <br><br>
 
@@ -128,7 +128,7 @@ However, if a key is set within <b>'x'</b> or <b>'y'</b>, that will take priorit
 Align.set([myDiv0, myDiv1, myDiv2], {
 	type: Align.CENTER,
 	against: myRefDiv
-}) 
+})
 
 // Note the against set on the top level then in y:
 // This is NOT good syntax but does technically works...
@@ -140,9 +140,9 @@ Align.set([myDiv0, myDiv1, myDiv2], {
 		type: Align.BOTTOM,
 		against: myOtherDiv
 	}
-}) 
+})
 // ...in this case use:
-Align.set([myDiv0, myDiv1, myDiv2], {		
+Align.set([myDiv0, myDiv1, myDiv2], {
 	offset: 10
 	x: {
 		type: Align.CENTER,
@@ -152,7 +152,7 @@ Align.set([myDiv0, myDiv1, myDiv2], {
 		type: Align.BOTTOM,
 		against: myOtherDiv
 	}
-}) 
+})
 </pre>
 
 <a name="Align.BOTTOM"></a>
@@ -212,14 +212,14 @@ Synonymous with "alignTopRight" used for [UITextField.alignText](UITextField.ali
 <a name="Align.get"></a>
 
 ### Align.get()
-Calculates but does not apply the amount the source element will move horizontally and/or vertically, relative to its parent 
+Calculates but does not apply the amount the source element will move horizontally and/or vertically, relative to its parent
 	according to provided mode. The constants allow for picking which coordinate to apply.
 
 **Kind**: static method of [<code>Align</code>](#Align)  
 <a name="Align.set"></a>
 
 ### Align.set()
-Moves the source element horizontally and/or vertically, relative to its parent according to provided mode. The constants 
+Moves the source element horizontally and/or vertically, relative to its parent according to provided mode. The constants
 	allow for picking which coordinate to apply. Will additionally return the get() value. NOTE: If setting an array, there will NOT be a return
 
 **Kind**: static method of [<code>Align</code>](#Align)  
