@@ -23,7 +23,7 @@ import { Clamp } from 'ad-view'
 <br>
 	Utility for resizing a DOM element to the size of all its content, sort of like shrink wrapping.
 	<br>
-	This will clamp the bounds and potentially move the x and y so that visually the content stays where it is. There is the option to clamp 
+	This will clamp the bounds and potentially move the x and y so that visually the content stays where it is. There is the option to clamp
 	both horizontally and vertically, or you can just do one. Additionally there is a optional object to add some buffer space on any of the sides.
 
 **Example**  

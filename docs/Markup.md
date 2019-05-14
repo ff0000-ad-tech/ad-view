@@ -29,7 +29,7 @@ Used to select elements.
 
 | Param | Type | Description |
 | --- | --- | --- |
-| selector | <code>string</code> | A string selector. It defaults to find the string as an id, or if the string starts with '#'.  	If starts with '.', it selects by class name. If wrapped with '<>', it selects by tag name. |
+| selector | <code>string</code> | A string selector. It defaults to find the string as an id, or if the string starts with '#'. 	If starts with '.', it selects by class name. If wrapped with '<>', it selects by tag name. |
 | parent | <code>element</code> | Optional parent element to get the element(s) from. Defaults to document. |
 
 **Example**  
