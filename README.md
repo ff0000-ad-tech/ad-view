@@ -32,6 +32,13 @@ DOM based visual tools.
 * <a href="./docs/Clamp.md#Clamp.Y">.Y</a> : <code>string</code>
 * <a href="./docs/Clamp.md#Clamp.XY">.XY</a> : <code>string</code>
 * <a href="./docs/Clamp.md#Clamp.set">.set(source, type, buffer)</a>
+## <a name="Effects" href="./docs/Effects.md">Effects</a>
+* <a href="./docs/Effects.md#Effects.blur">.blur(obj)</a>
+* <a href="./docs/Effects.md#Effects.dropShadow">.dropShadow(obj)</a>
+* <a href="./docs/Effects.md#Effects.textDropShadow">.textDropShadow(obj)</a>
+* <a href="./docs/Effects.md#Effects.glow">.glow(obj)</a>
+* <a href="./docs/Effects.md#Effects.linearGradient">.linearGradient(obj)</a>
+* <a href="./docs/Effects.md#Effects.radialGradient">.radialGradient(obj)</a>
 ## <a name="Markup" href="./docs/Markup.md">Markup</a>
 * <a href="./docs/Markup.md#Markup.get">.get(selector, parent)</a> ⇒ <code>element</code> \| <code>HTMLCollection</code>
 * <a href="./docs/Markup.md#Markup.removeChildren">.removeChildren(_target)</a>
